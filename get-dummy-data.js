@@ -5,7 +5,7 @@ var Q = require('q');
 
 module.exports = function getDummyData() {
 
-    return Q.when(data.slice(-10));
-    // return Q.when(data);
+    return Q(data.slice(-50));
+    // return Q(data);
 
 }
